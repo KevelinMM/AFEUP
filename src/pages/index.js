@@ -1,37 +1,26 @@
-import Dropdown from "../components/Dropdown";
-import Checkbox from "../components/Checkbox";
-import AlertBox from "../components/AlertBox";
+import Calendar from "../components/Calendar";
+import Forms from "../components/Forms";
 
 export default function Home() {
   return (
     <section>
-      <h1 className="page-title">Titulo Página</h1>
-      <div className="page-content">
-        <p className="p-1">Conteúdo</p>
-        <input placeholder="Placeholder" />
-        <br />
-        <br />
-        <button>Botão</button>
-        <br />
-        <br />
-        <select>
-          <option value="1" disabled default selected>
-            Select{" "}
-          </option>
-          <option value="2">Conteúdo 1</option>
-          <option value="3">Conteúdo 2</option>
-          <option value="4">Conteúdo 3</option>
-        </select>
-        <br />
-        <br />
-        <Dropdown />
-        <br />
-        <br />
-        <Checkbox />
+      <h1 className="page-title">Associação dos Funcionários da UNIPLAC</h1>
+      <div className="page-content mb-14">
+        <h2 >Sobre nós</h2>
+        <p>
+          A Associação dos Funcionários da UNIPLAC, é uma entidade que
+          congregará todos os funcionários que a ela se vinculem. É uma
+          sociedade civil, com personalidade jurídica de duração indeterminada,
+          designada pela sigla AFEUP. São finalidades da AFEUP: Defender os
+          interesses dos seus associados. Zelar pela dignidade e prestígio dos
+          associados. Estimular entre os associados o sentido do coleguismo e
+          amizade. Promover o congraçamento social e recreativo entre os
+          membros. Disponibilizar convênios de serviços empresariais aos
+          associados.
+        </p>
 
-        <AlertBox msg="AlertaOn" />
-        <br />
-        <br />
+        <Calendar />
+        <Forms />
       </div>
     </section>
   );

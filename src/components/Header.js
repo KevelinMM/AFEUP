@@ -1,5 +1,5 @@
 import { Navbar } from "flowbite-react";
-import Image from "next/image";
+
 export default function Header() {
   return (
 
@@ -7,7 +7,7 @@ export default function Header() {
      
       <Navbar fluid={true} rounded={true}>
         <Navbar.Brand href="https://flowbite.com/">
-          <Image
+          <img
             src="https://flowbite.com/docs/images/logo.svg"
             className="mr-3 h-6 sm:h-9"
             alt="AFEUP logo"

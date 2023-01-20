@@ -5,7 +5,7 @@ import Carousel from "../components/Carousel";
 export default function Home() {
   return (
     <section>
-      <h1 className="page-title">Associação dos Funcionários da UNIPLAC</h1>
+      <h1 className="page-title" id="sobre">Associação dos Funcionários da UNIPLAC</h1>
       <div className="page-content mb-14">
         <h2>Sobre nós</h2>
         <p>
@@ -23,9 +23,9 @@ export default function Home() {
         <h2>Nosso espaço</h2>
 
         
-        <Carousel />
-        <Calendar />
-        <Forms />
+        <Carousel id="espaco"/>
+        <Calendar id="agenda"/>
+        <Forms    id="contato"/>
       </div>
     </section>
   );

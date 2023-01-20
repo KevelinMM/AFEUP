@@ -1,6 +1,6 @@
 import Calendar from "../components/Calendar";
 import Forms from "../components/Forms";
-import Carousel from "../components/Carousel";
+import Gallery from "../components/Gallery";
 
 export default function Home() {
   return (
@@ -19,11 +19,8 @@ export default function Home() {
           membros. Disponibilizar convênios de serviços empresariais aos
           associados.
         </p>
-
         <h2>Nosso espaço</h2>
-
-        
-        <Carousel />
+        <Gallery />
         <Calendar />
         <Forms />
       </div>

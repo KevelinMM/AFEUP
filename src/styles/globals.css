@@ -5,11 +5,11 @@
 @tailwind utilities;
 
 html {
-  @apply bg-slate-200 font-[rubik] text-gray-700 ;
+  @apply bg-slate-200 font-[rubik] text-gray-700;
 }
 
 section {
-  @apply mx-2 sm:mx-10 md:mx-20 lg:mx-44;
+  @apply mx-2 sm:mx-10 md:mx-20 lg:mx-40;
 }
 
 input,
@@ -18,11 +18,11 @@ select {
 }
 
 button {
-  @apply shadow-md bg-btn-blue hover:bg-blue-900 soft-transition text-white px-3 py-1 rounded ;
+  @apply shadow-md bg-btn-blue hover:bg-blue-900 soft-transition text-white px-3 py-1 rounded;
 }
 
-h2{
-  @apply text-xl my-4 font-semibold
+h2 {
+  @apply text-xl my-4 font-semibold;
 }
 
 .soft-transition {
@@ -30,13 +30,15 @@ h2{
 }
 
 .page-title {
-  @apply font-semibold text-center text-3xl py-8 text-gray-600 ;
+  @apply font-semibold text-center text-3xl py-8 text-gray-600;
 }
 
 .page-content {
-  @apply text-black text-justify p-5 shadow rounded-sm bg-primary-white bg-opacity-80 ;
+  @apply text-black text-justify p-5 shadow rounded-sm bg-primary-white bg-opacity-80;
 }
 
 .alert-box {
-  @apply flex shadow opacity-70 space-x-4 px-4 justify-center mt-6 w-52 rounded border items-center bg-red-200 border-red-300 ;
+  @apply flex shadow opacity-70 space-x-4 px-4 justify-center mt-6 w-52 rounded border items-center bg-red-200 border-red-300;
 }
+
+

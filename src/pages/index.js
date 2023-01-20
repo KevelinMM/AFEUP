@@ -1,14 +1,13 @@
 import Calendar from "../components/Calendar";
 import Forms from "../components/Forms";
-import Carousel from "../components/carousel";
+import { Carousel } from "flowbite-react";
 
 export default function Home() {
   return (
     <section>
-    
       <h1 className="page-title">Associação dos Funcionários da UNIPLAC</h1>
       <div className="page-content mb-14">
-        <h2 >Sobre nós</h2>
+        <h2>Sobre nós</h2>
         <p>
           A Associação dos Funcionários da UNIPLAC, é uma entidade que
           congregará todos os funcionários que a ela se vinculem. É uma
@@ -21,11 +20,32 @@ export default function Home() {
           associados.
         </p>
 
+        <h2>Nosso espaço</h2>
 
-        <h2 >Nosso espaço</h2>
-
-
-        <Carousel />
+        <div className="h-56 sm:h-64 xl:h-80 2xl:h-96">
+          <Carousel slideInterval={4000}>
+            <img
+              src="https://flowbite.com/docs/images/carousel/carousel-1.svg"
+              alt="..."
+            />
+            <img
+              src="https://flowbite.com/docs/images/carousel/carousel-2.svg"
+              alt="..."
+            />
+            <img
+              src="https://flowbite.com/docs/images/carousel/carousel-3.svg"
+              alt="..."
+            />
+            <img
+              src="https://flowbite.com/docs/images/carousel/carousel-4.svg"
+              alt="..."
+            />
+            <img
+              src="https://flowbite.com/docs/images/carousel/carousel-5.svg"
+              alt="..."
+            />
+          </Carousel>
+        </div>
         <Calendar />
         <Forms />
       </div>

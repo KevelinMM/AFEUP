@@ -25,23 +25,23 @@ export default function Home() {
         <div className="h-56 sm:h-64 xl:h-80 2xl:h-96">
           <Carousel slideInterval={4000}>
             <img
-              src="https://flowbite.com/docs/images/carousel/carousel-1.svg"
+              src="../../FotosLocal/area.jpeg"
               alt="..."
             />
             <img
-              src="https://flowbite.com/docs/images/carousel/carousel-2.svg"
+              src="../../FotosLocal/campo.jpeg"
               alt="..."
             />
             <img
-              src="https://flowbite.com/docs/images/carousel/carousel-3.svg"
+              src="h../../FotosLocal/campoExt.jpeg"
               alt="..."
             />
             <img
-              src="https://flowbite.com/docs/images/carousel/carousel-4.svg"
+              src="../../FotosLocal/casa1.jpeg"
               alt="..."
             />
             <img
-              src="https://flowbite.com/docs/images/carousel/carousel-5.svg"
+              src="../../FotosLocal/casa2.jpeg"
               alt="..."
             />
           </Carousel>

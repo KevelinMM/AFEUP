@@ -1,9 +1,11 @@
 import Calendar from "../components/Calendar";
 import Forms from "../components/Forms";
+import Carousel from "../components/carousel";
 
 export default function Home() {
   return (
     <section>
+    
       <h1 className="page-title">Associação dos Funcionários da UNIPLAC</h1>
       <div className="page-content mb-14">
         <h2 >Sobre nós</h2>
@@ -19,6 +21,11 @@ export default function Home() {
           associados.
         </p>
 
+
+        <h2 >Nosso espaço</h2>
+
+
+        <Carousel />
         <Calendar />
         <Forms />
       </div>

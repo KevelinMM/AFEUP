@@ -1,21 +1,21 @@
 import "../styles/globals.css";
 import Head from "next/head";
-import Footer from "../components/Footer"
-import Header from "../components/Header"
+import Footer from "../components/Footer";
+import Header from "../components/Header";
 
 function MyApp({ Component, pageProps }) {
   return (
     <div>
       <Head>
         <title>AFEUP</title>
-        <meta name="description" content="Site modelo Uniplac" />
-        <link rel="icon" href="http://ww2.uniplaclages.edu.br/aviso-webmail/img/logo.png" />
-        
+        <meta name="description" content="AFEUP" />
+       
+    
       </Head>
-      <Header/>
-      <Component {...pageProps} className="min-h-screen"/>
-      <Footer/>
-  
+      <Header />
+      <Component {...pageProps} className="min-h-screen" />
+
+      <Footer />
     </div>
   );
 }

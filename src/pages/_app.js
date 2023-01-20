@@ -9,12 +9,9 @@ function MyApp({ Component, pageProps }) {
       <Head>
         <title>AFEUP</title>
         <meta name="description" content="AFEUP" />
-       
-    
       </Head>
       <Header />
       <Component {...pageProps} className="min-h-screen" />
-
       <Footer />
     </div>
   );

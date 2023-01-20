@@ -1,6 +1,6 @@
 import Calendar from "../components/Calendar";
 import Forms from "../components/Forms";
-import { Carousel } from "flowbite-react";
+import Carousel from "../components/Carousel";
 
 export default function Home() {
   return (
@@ -22,30 +22,8 @@ export default function Home() {
 
         <h2>Nosso espaço</h2>
 
-        <div className="h-56 sm:h-64 xl:h-80 2xl:h-96">
-          <Carousel slideInterval={4000}>
-            <img
-              src="../../FotosLocal/area.jpeg"
-              alt="..."
-            />
-            <img
-              src="../../FotosLocal/campo.jpeg"
-              alt="..."
-            />
-            <img
-              src="h../../FotosLocal/campoExt.jpeg"
-              alt="..."
-            />
-            <img
-              src="../../FotosLocal/casa1.jpeg"
-              alt="..."
-            />
-            <img
-              src="../../FotosLocal/casa2.jpeg"
-              alt="..."
-            />
-          </Carousel>
-        </div>
+        
+        <Carousel />
         <Calendar />
         <Forms />
       </div>

@@ -21,8 +21,8 @@ export default function Home() {
         </p>
         <h2>Nosso espaço</h2>
 
-        
-        <Gallery id="espaco"/>
+
+        <Gallery  id="fotos"/>
         <Calendar id="agenda"/>
         <Forms    id="contato"/>
       </div>

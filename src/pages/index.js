@@ -1,6 +1,7 @@
 import Calendar from "../components/Calendar";
 import Forms from "../components/Forms";
 import Gallery from "../components/Gallery";
+import { Fancybox, Carousel, Panzoom } from "@fancyapps/ui";
 
 export default function Home() {
   return (
@@ -23,8 +24,9 @@ export default function Home() {
 
 
         <Gallery  id="fotos"/>
-        <Calendar id="agenda"/>
+        
         <Forms    id="contato"/>
+   
       </div>
     </section>
   );

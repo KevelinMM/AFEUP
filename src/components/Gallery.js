@@ -1,81 +1,140 @@
 export default function Gallery() {
   return (
-    <div class="flex flex-col items-center justify-center  " id="fotos">
-      <div
-        class="grid grid-flow-row gap-4 text-neutral-600 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-      <div className="  card w-96 bg-base-100 shadow-xl p-2 rounded-md">
-        <figure>
-          <img src="https://placeimg.com/400/225/arch" alt="Shoes" />
-        </figure>
-        <div className="card-body">
-          <h2 className="card-title">Shoes!</h2>
-          <p>If a dog chews shoes whose shoes does he choose?</p>
+    <div class=" flex flex-col items-center justify-center  " id="fotos">
+      <div class="grid grid-flow-row gap-4 text-neutral-600 cursor-pointer sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-3 ">
+        <div className=" w-72  shadow-xl   ">
+          <figure>
+            <img
+              src="../FotosLocal/area.jpeg"
+              alt="Área externa"
+              data-fancybox="gallery"
+              data-caption="Área externa"
+              className="rounded-md"
+            />
+          </figure>
+        </div>
+        <div className="w-72 shadow-xl">
+          <figure>
+            <img
+              src="../FotosLocal/campo.jpeg"
+              alt="Campo de Futebol"
+              data-fancybox="gallery"
+              data-caption="Campo de Futebol"
+              className="rounded-md"
+            />
+          </figure>
+        </div>
+        <div className="w-72 shadow-xl">
+          <figure>
+            <img
+              src="../FotosLocal/campoExt.jpeg"
+              alt="rea externa"
+              data-fancybox="gallery"
+              data-caption="Área externa"
+              className="rounded-md"
+            />
+          </figure>
+        </div>
+        <div className="w-72 shadow-xl">
+          <figure>
+            <img
+              src="../FotosLocal/casa1.jpeg"
+              alt="Casa"
+              data-fancybox="gallery"
+              data-caption="Casa"
+              className="rounded-md"
+            />
+          </figure>
+        </div>
+        <div className="w-72 shadow-xl">
+          <figure>
+            <img
+              src="../FotosLocal/casa2.jpeg"
+              alt="Casa"
+              data-fancybox="gallery"
+              data-caption="Casa"
+              className="rounded-md"
+            />
+          </figure>
+        </div>
+        <div className="w-72 shadow-xl">
+          <figure>
+            <img
+              src="../FotosLocal/casa3.jpeg"
+              alt="Casa"
+              data-fancybox="gallery"
+              data-caption="Casa"
+              className="rounded-md"
+            />
+          </figure>
+        </div>
+        <div className="w-72 shadow-xl">
+          <figure>
+            <img
+              src="../FotosLocal/casaArea.jpeg"
+              alt="Casa"
+              data-fancybox="gallery"
+              data-caption="Casa"
+              className="rounded-md"
+            />
+          </figure>
+        </div>
+        <div className="w-72 shadow-xl">
+          <figure>
+            <img
+              src="../FotosLocal/entrada1.jpeg"
+              alt="Entrada"
+              data-fancybox="gallery"
+              data-caption="Entrada"
+              className="rounded-md"
+            />
+          </figure>
+        </div>
+        <div className="w-72 shadow-xl">
+          <figure>
+            <img
+              src="../FotosLocal/entrada2.jpeg"
+              alt="Entrada"
+              data-fancybox="gallery"
+              data-caption="Entrada"
+              className="rounded-md"
+            />
+          </figure>
+        </div>
+        <div className="w-72 shadow-xl">
+          <figure>
+            <img
+              src="../FotosLocal/parquinho.jpeg"
+              alt="Parquinho"
+              data-fancybox="gallery"
+              data-caption="Parquinho"
+              className="rounded-md"
+            />
+          </figure>
+        </div>
+        <div className="w-72 shadow-xl">
+          <figure>
+            <img
+              src="../FotosLocal/piscina.jpeg"
+              alt="Piscina"
+              data-fancybox="gallery"
+              data-caption="Piscina"
+              className="rounded-md"
+            />
+          </figure>
+        </div>
+        <div className="w-72 shadow-xl">
+          <figure>
+            <img
+              src="../FotosLocal/piscina2.jpeg"
+              alt="Piscina"
+              data-fancybox="gallery"
+              data-caption="Piscina"
+              className="rounded-md"
+            />
+          </figure>
         </div>
       </div>
-      <div className="card w-96 bg-base-100 shadow-xl p-3 rounded-md">
-        <figure>
-          <img src="https://placeimg.com/400/225/arch" alt="Shoes" />
-        </figure>
-        <div className="card-body">
-          <h2 className="card-title">Shoes!</h2>
-          <p>If a dog chews shoes whose shoes does he choose?</p>
-        </div>
-      </div>
-      <div className="card w-96 bg-base-100 shadow-xl p-3 rounded-md">
-        <figure>
-          <img src="https://placeimg.com/400/225/arch" alt="Shoes" />
-        </figure>
-        <div className="card-body">
-          <h2 className="card-title">Shoes!</h2>
-          <p>If a dog chews shoes whose shoes does he choose?</p>
-        </div>
-      </div>
-      <div className="card w-96 bg-base-100 shadow-xl p-3 rounded-md">
-        <figure>
-          <img src="https://placeimg.com/400/225/arch" alt="Shoes" />
-        </figure>
-        <div className="card-body">
-          <h2 className="card-title">Shoes!</h2>
-          <p>If a dog chews shoes whose shoes does he choose?</p>
-        </div>
-      </div>
-      <div className="card w-96 bg-base-100 shadow-xl p-3 rounded-md">
-        <figure>
-          <img src="https://placeimg.com/400/225/arch" alt="Shoes" />
-        </figure>
-        <div className="card-body">
-          <h2 className="card-title">Shoes!</h2>
-          <p>If a dog chews shoes whose shoes does he choose?</p>
-        </div>
-      </div>
-      <div className="card w-96 bg-base-100 shadow-xl p-3 rounded-md">
-        <figure>
-          <img src="https://placeimg.com/400/225/arch" alt="Shoes" />
-        </figure>
-        <div className="card-body">
-          <h2 className="card-title">Shoes!</h2>
-          <p>If a dog chews shoes whose shoes does he choose?</p>
-        </div>
-      </div>
-      <div className="card w-96 bg-base-100 shadow-xl p-3 rounded-md">
-        <figure>
-          <img src="https://placeimg.com/400/225/arch" alt="Shoes" />
-        </figure>
-        <div className="card-body">
-          <h2 className="card-title">Shoes!</h2>
-          <p>If a dog chews shoes whose shoes does he choose?</p>
-        </div>
-      </div>
-      <div className="card w-96 bg-base-100 shadow-xl p-3 rounded-md">
-        <figure>
-          <img src="https://placeimg.com/400/225/arch" alt="Shoes" />
-        </figure>
-        <div className="card-body">
-          <h2 className="card-title">Shoes!</h2>
-          <p>If a dog chews shoes whose shoes does he choose?</p>
-        </div>
-      </div>
-    </div>
     </div>
   );
 }

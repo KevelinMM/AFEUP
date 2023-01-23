@@ -1,24 +1,25 @@
 
 export default function Header() {
   return (
-    <nav class="bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-900">
+    <nav class="bg-slate-100  px-2 sm:px-4 py-1 rounded ">
+      
       <div class="container flex flex-wrap items-center justify-between mx-auto">
         <a href="#" class="flex items-center">
           <img
-            src="../../LogoAfeup.png"
+            src="../../LogoTransparente.png"
             class="h-12 md:h-14 mr-3 "
             alt="AFEUP Logo"
           />
         </a>
         <button
           type="button"
-          class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+          class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 "
           onClick={(e) =>
             (document.getElementById("navbar").hidden =
               !document.getElementById("navbar").hidden)
           }
         >
-          <span class="sr-only">Open main menu</span>
+          <span class="sr-only">Abrir menu principal</span>
           <svg
             class="w-6 h-6"
             aria-hidden="true"
@@ -34,11 +35,11 @@ export default function Header() {
           </svg>
         </button>
         <div class="w-full md:block md:w-auto" id="navbar">
-          <ul class="flex flex-col p-4 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+          <ul class="flex flex-col p-4 mt-4  rounded-lg  md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0  ">
             <li>
               <a
                 href="#sobre"
-                class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 "
               >
                 Sobre
               </a>
@@ -46,7 +47,7 @@ export default function Header() {
             <li>
               <a
                 href="#fotos"
-                class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 "
               >
                 Fotos
               </a>
@@ -54,7 +55,7 @@ export default function Header() {
             <li>
               <a
                 href="#agenda"
-                class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 "
               >
                 Agenda
               </a>
@@ -62,7 +63,7 @@ export default function Header() {
             <li>
               <a
                 href="#contato"
-                class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 "
               >
                 Contate-nos
               </a>

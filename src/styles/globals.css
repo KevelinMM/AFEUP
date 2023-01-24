@@ -19,11 +19,11 @@ select {
 }
 
 button {
-  @apply shadow-md bg-btn-blue hover:bg-blue-900 soft-transition text-white px-3 py-1 rounded;
+  @apply shadow-md soft-transition text-gray-600 px-3 py-1 rounded;
 }
 
 h2 {
-  @apply text-xl my-4 font-semibold;
+  @apply text-xl my-4 font-semibold text-gray-600;
 }
 
 .soft-transition {

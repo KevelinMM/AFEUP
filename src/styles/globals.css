@@ -6,7 +6,7 @@
 @tailwind utilities;
 
 html {
-  @apply bg-slate-300 font-[rubik] text-gray-700;
+  @apply bg-slate-300  text-gray-700;
 }
 
 section {
@@ -19,11 +19,11 @@ select {
 }
 
 button {
-  @apply shadow-md soft-transition text-gray-600 px-3 py-1 rounded;
+  @apply shadow-md soft-transition text-gray-600 px-3 py-1 rounded mx-auto flex;
 }
 
 h2 {
-  @apply text-xl my-4 font-semibold text-gray-600;
+  @apply text-3xl my-4 font-semibold  pl-4 text-center py-4;
 }
 
 .soft-transition {
@@ -31,11 +31,11 @@ h2 {
 }
 
 .page-title {
-  @apply font-semibold text-center text-3xl py-8 text-gray-600;
+  @apply font-semibold text-center text-3xl py-8   text-gray-600;
 }
 
 .page-content {
-  @apply text-black text-justify p-5 shadow rounded-sm bg-primary-white bg-opacity-80;
+  @apply  bg-gradient-to-t from-gray-700 text-black text-justify  mb-16 rounded-sm  bg-opacity-80;
 }
 
 .alert-box {

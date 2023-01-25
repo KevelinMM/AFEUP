@@ -1,7 +1,7 @@
 export default function Gallery() {
   return (
-    <div class=" flex flex-col items-center justify-center  " id="fotos">
-      <div class="grid grid-flow-row gap-4 text-neutral-600 cursor-pointer sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-3 ">
+    <div className=" flex flex-col items-center justify-center  " id="fotos">
+      <div className=" grid grid-flow-row gap-4 text-neutral-600 cursor-pointer sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-3 ">
         <div className=" w-72  shadow-xl   ">
           <figure>
             <img

@@ -11,9 +11,9 @@ export default function Home() {
         Associação dos Funcionários da UNIPLAC
       </h1>
       <a
-     
+        target="_blank"
         href="https://api.whatsapp.com/send/?phone=5549999382112"
-        class="cursor-pointer bg-green-500 rounded-full w-16 h-16 animate-bounce fixed z-10 right-4 bottom-4"
+        className="cursor-pointer bg-green-500 rounded-full w-16 h-16 animate-bounce fixed z-10 right-4 bottom-4"
       >
         <svg class="text-[40px] p-3 text-white ">
           <svg

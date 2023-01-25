@@ -41,10 +41,12 @@ export default function Home() {
 
         <h2 className="text-gray-600 ">Nosso espaço</h2>
         
-        <Gallery id="fotos" />
+        <Gallery  />
         <h2 className="text-zinc-100">Calendário de eventos</h2>
         <Calendar />
-        <Forms id="contato" />
+        <h2 className="text-zinc-100">Reserve seu dia para confraternização</h2>
+
+        <Forms />
       </div>
     </section>
   );

@@ -12,7 +12,7 @@ export default function Home() {
       </h1>
       <a
         target="_blank"
-        rel="noreferrer"
+        rel="noopener noreferrer"
         href="https://api.whatsapp.com/send/?phone=5549999382112"
         className="cursor-pointer bg-green-500 rounded-full w-16 h-16 animate-bounce fixed z-10 right-4 bottom-4"
       >

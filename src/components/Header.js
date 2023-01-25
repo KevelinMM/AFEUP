@@ -4,7 +4,7 @@ export default function Header() {
     <nav className="bg-slate-100  px-2 sm:px-4 py-1 rounded ">
       
       <div className="container flex flex-wrap items-center justify-between mx-auto">
-        <a href="#" className="flex items-center">
+        <a href="#" className="flex items-center ">
           <img
             src="../../LogoTransparente.png"
             className="h-12 md:h-14 mr-3 "
@@ -13,15 +13,15 @@ export default function Header() {
         </a>
         <button
           type="button"
-          className="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 "
+          className="  p-2 mr-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 "
           onClick={(e) =>
             (document.getElementById("navbar").hidden =
               !document.getElementById("navbar").hidden)
           }
         >
-          <span className="sr-only">Abrir menu principal</span>
+       
           <svg
-            className="w-6 h-6"
+            className="w-6 h-6 "
             aria-hidden="true"
             fill="currentColor"
             viewBox="0 0 20 20"

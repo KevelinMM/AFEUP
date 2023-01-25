@@ -9,10 +9,6 @@ html {
   @apply bg-slate-300  text-gray-700;
 }
 
-section {
-  @apply mx-2 sm:mx-10 md:mx-20 lg:mx-40;
-}
-
 input,
 select {
   @apply shadow outline-none px-2 py-1 rounded;
@@ -35,7 +31,7 @@ h2 {
 }
 
 .page-content {
-  @apply  bg-gradient-to-t from-gray-700 text-black text-justify  mb-16 rounded-sm  bg-opacity-80 pb-1;
+  @apply  bg-gradient-to-t from-gray-700 text-black text-justify  mb-12 rounded-sm  bg-opacity-80;
 }
 
 .alert-box {

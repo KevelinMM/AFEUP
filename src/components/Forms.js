@@ -1,10 +1,30 @@
 export default function Forms() {
   return (
-    <section className="md:flex ">
-      <div className="text-zinc-200 mx-auto">
-        <form action="#">
-          <div>
-            <label for="email" className="block mb-2 text-sm font-medium w-96">
+    <section className="md:flex">
+      <div className="grid grid-cols-1 lg:grid-cols-2 p-2 md:p-4 md:mx-24 space-x-6 w-full ">
+        <div className="h-full bg-slate-200 bg-opacity-90  rounded-xl  mx-4">
+          <img
+            className="mx-auto "
+            src="../LogoTransparente.png"
+            width="150"
+            height=""
+            alt="consultoria-fundo"
+          />
+
+          <iframe
+            className="w-full h-60 lg:w-full lg:h-80 p-4"
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d172542.57845672697!2d-50.39255755144868!3d-27.77674765175403!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94e019b2aef44db3%3A0x16327a1cf32703c2!2sSede%20AFEUP!5e0!3m2!1sen!2sbr!4v1674677479109!5m2!1sen!2sbr"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+           <p className="text-slate-700 text-center   ">email</p>
+        </div>
+       
+
+        <form action="#" className=" items-center pr-4">
+          <div className=" text-slate-200 ">
+            <label for="email" className="block mb-2 text-sm font-medium w-96 pt-2 ">
               Seu email
             </label>
             <input
@@ -16,7 +36,7 @@ export default function Forms() {
             />
           </div>
           <div>
-            <label for="number" className="block my-2 text-sm font-medium  ">
+            <label for="number" className="text-slate-200 block my-2 text-sm font-medium  ">
               Contato
             </label>
             <input
@@ -28,7 +48,7 @@ export default function Forms() {
             />
           </div>
           <div>
-            <label for="subject" className="block my-2 text-sm font-medium  ">
+            <label for="subject" className=" text-slate-200 block my-2 text-sm font-medium  ">
               Data de locação
             </label>
             <input
@@ -40,7 +60,7 @@ export default function Forms() {
             />
           </div>
           <div className="sm:col-span-2">
-            <label for="message" className="block my-2 text-sm font-medium  ">
+            <label for="message" className="text-slate-200 block my-2 text-sm font-medium  ">
               Mensagem
             </label>
             <textarea

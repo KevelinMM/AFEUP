@@ -35,7 +35,7 @@ h2 {
 }
 
 .page-content {
-  @apply  bg-gradient-to-t from-gray-700 text-black text-justify  mb-16 rounded-sm  bg-opacity-80;
+  @apply  bg-gradient-to-t from-gray-700 text-black text-justify  mb-16 rounded-sm  bg-opacity-80 pb-1;
 }
 
 .alert-box {

@@ -46,7 +46,7 @@ export default function Home() {
         <Calendar />
         <h2 className="text-zinc-100">Reserve seu dia para confraternização</h2>
 
-        <Forms />
+        <Forms  />
       </div>
     </section>
   );

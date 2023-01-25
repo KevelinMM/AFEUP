@@ -50,7 +50,7 @@ export default function Forms() {
               placeholder="Digite aqui seu nome completo e matrícula de funcionario da Uniplac!"
             ></textarea>
           </div>
-          <button type="submit" className="button my-4 bg-slate-300">
+          <button type="submit" className="button my-3 bg-slate-300 ">
             Enviar
           </button>
         </form>

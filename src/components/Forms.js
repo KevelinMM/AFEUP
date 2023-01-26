@@ -1,7 +1,7 @@
 export default function Forms() {
   return (
     <section className="md:flex" id="contato">
-      <div className="grid grid-cols-1 lg:grid-cols-2 p-2  md:mx-12 lg:mx-44 space-x-6 w-full ">
+      <div className="grid grid-cols-1 lg:grid-cols-2 p-2 md:mx-12 lg:mx-44 space-x-6 w-full ">
         <div className="h-full bg-slate-200 bg-opacity-90  rounded-xl  mx-4">
           <img
             className="mx-auto "

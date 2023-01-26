@@ -2,7 +2,7 @@ export default function Gallery() {
   return (
     <div className=" flex flex-col items-center justify-center  " id="fotos">
       <div className=" grid grid-flow-row gap-4 text-neutral-600 cursor-pointer sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-3 ">
-        <div className=" w-96  shadow-xl   ">
+        <div className=" w-80  shadow-xl   ">
           <figure>
             <img
               src="../FotosLocal/area.jpeg"
@@ -13,7 +13,7 @@ export default function Gallery() {
             />
           </figure>
         </div>
-        <div className="w-96 shadow-xl">
+        <div className="w-80 shadow-xl">
           <figure>
             <img
               src="../FotosLocal/campo.jpeg"
@@ -24,7 +24,7 @@ export default function Gallery() {
             />
           </figure>
         </div>
-        <div className="w-96 shadow-xl">
+        <div className="w-80 shadow-xl">
           <figure>
             <img
               src="../FotosLocal/campoExt.jpeg"
@@ -35,7 +35,7 @@ export default function Gallery() {
             />
           </figure>
         </div>
-        <div className="w-96 shadow-xl">
+        <div className="w-80 shadow-xl">
           <figure>
             <img
               src="../FotosLocal/casa1.jpeg"
@@ -46,7 +46,7 @@ export default function Gallery() {
             />
           </figure>
         </div>
-        <div className="w-96 shadow-xl">
+        <div className="w-80 shadow-xl">
           <figure>
             <img
               src="../FotosLocal/casa2.jpeg"
@@ -57,7 +57,7 @@ export default function Gallery() {
             />
           </figure>
         </div>
-        <div className="w-96 shadow-xl">
+        <div className="w-80 shadow-xl">
           <figure>
             <img
               src="../FotosLocal/casa3.jpeg"
@@ -68,7 +68,7 @@ export default function Gallery() {
             />
           </figure>
         </div>
-        <div className="w-96 shadow-xl">
+        <div className="w-80 shadow-xl">
           <figure>
             <img
               src="../FotosLocal/casaArea.jpeg"
@@ -79,7 +79,7 @@ export default function Gallery() {
             />
           </figure>
         </div>
-        <div className="w-96 shadow-xl">
+        <div className="w-80 shadow-xl">
           <figure>
             <img
               src="../FotosLocal/entrada1.jpeg"
@@ -90,7 +90,7 @@ export default function Gallery() {
             />
           </figure>
         </div>
-        <div className="w-96 shadow-xl">
+        <div className="w-80 shadow-xl">
           <figure>
             <img
               src="../FotosLocal/entrada2.jpeg"
@@ -101,7 +101,7 @@ export default function Gallery() {
             />
           </figure>
         </div>
-        <div className=" w-96 shadow-xl">
+        <div className=" w-80 shadow-xl">
           <figure>
             <img
               src="../FotosLocal/parquinho.jpeg"
@@ -112,7 +112,7 @@ export default function Gallery() {
             />
           </figure>
         </div>
-        <div className="w-96 shadow-xl">
+        <div className="w-80 shadow-xl">
           <figure>
             <img
               src="../FotosLocal/piscina.jpeg"
@@ -123,7 +123,7 @@ export default function Gallery() {
             />
           </figure>
         </div>
-        <div className="w-96 shadow-xl">
+        <div className="w-80 shadow-xl">
           <figure>
             <img
               src="../FotosLocal/piscina2.jpeg"

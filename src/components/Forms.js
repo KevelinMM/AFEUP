@@ -1,7 +1,7 @@
 export default function Forms() {
   return (
-    <section className="md:flex" id="contato">
-      <div className="grid grid-cols-1 lg:grid-cols-2 p-2 md:mx-12 lg:mx-44 space-x-6 w-full ">
+    <section className="md:flex">
+      <div className="grid grid-cols-1 lg:grid-cols-2 p-2 md:p-4 md:mx-24 space-x-6 w-full ">
         <div className="h-full bg-slate-200 bg-opacity-90  rounded-xl  mx-4">
           <img
             className="mx-auto "
@@ -18,15 +18,13 @@ export default function Forms() {
             loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"
           ></iframe>
-           <p className="text-slate-700 text-center font-medium">afeup@uniplaclages.edu.br</p>
-      
-           <p className="text-slate-700 m-4 ">Loteamento Nossa Senhora Aparecida, quadra R, na Rua José Sidnei Guzatti BR 116</p>
+           <p className="text-slate-700 text-center   ">email</p>
         </div>
        
 
         <form action="#" className=" items-center pr-4">
           <div className=" text-slate-200 ">
-            <label for="email" className="block mb-2 text-sm font-medium w-96 pt-2 ">
+            <label for="email" className=" mb-2 text-sm font-medium w-96 pt-2 ">
               Seu email
             </label>
             <input

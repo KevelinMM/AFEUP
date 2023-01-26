@@ -1,5 +1,9 @@
+import { useEffect } from "react";
 
 export default function Header() {
+  useEffect(() => {
+    document.getElementById("navbar").hidden = true
+  },[])
   return (
     <nav className="bg-slate-100  px-2 sm:px-4 py-1 rounded ">
       

@@ -1,7 +1,7 @@
 export default function Gallery() {
   return (
     <div className=" flex flex-col items-center justify-center  " id="fotos">
-      <div className=" grid grid-flow-row gap-4 text-neutral-600 cursor-pointer sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-3 ">
+      <div className=" grid grid-flow-row gap-4 text-neutral-600 cursor-pointer sm:grid-cols-2  xl:grid-cols-4 ">
         <div className=" w-72  shadow-xl   ">
           <figure>
             <img
@@ -9,7 +9,7 @@ export default function Gallery() {
               alt="Área externa"
               data-fancybox="gallery"
               data-caption="Área externa"
-              className="rounded-md"
+              className="gallery"
             />
           </figure>
         </div>
@@ -20,7 +20,7 @@ export default function Gallery() {
               alt="Campo de Futebol"
               data-fancybox="gallery"
               data-caption="Campo de Futebol"
-              className="rounded-md"
+              className="gallery"
             />
           </figure>
         </div>
@@ -31,7 +31,7 @@ export default function Gallery() {
               alt="rea externa"
               data-fancybox="gallery"
               data-caption="Área externa"
-              className="rounded-md"
+              className="gallery"
             />
           </figure>
         </div>
@@ -42,7 +42,7 @@ export default function Gallery() {
               alt="Casa"
               data-fancybox="gallery"
               data-caption="Casa"
-              className="rounded-md"
+              className="gallery"
             />
           </figure>
         </div>
@@ -53,7 +53,7 @@ export default function Gallery() {
               alt="Casa"
               data-fancybox="gallery"
               data-caption="Casa"
-              className="rounded-md"
+              className="gallery"
             />
           </figure>
         </div>
@@ -64,7 +64,7 @@ export default function Gallery() {
               alt="Casa"
               data-fancybox="gallery"
               data-caption="Casa"
-              className="rounded-md"
+              className="gallery"
             />
           </figure>
         </div>
@@ -75,7 +75,7 @@ export default function Gallery() {
               alt="Casa"
               data-fancybox="gallery"
               data-caption="Casa"
-              className="rounded-md"
+              className="gallery"
             />
           </figure>
         </div>
@@ -86,7 +86,7 @@ export default function Gallery() {
               alt="Entrada"
               data-fancybox="gallery"
               data-caption="Entrada"
-              className="rounded-md"
+              className="gallery"
             />
           </figure>
         </div>
@@ -97,7 +97,7 @@ export default function Gallery() {
               alt="Entrada"
               data-fancybox="gallery"
               data-caption="Entrada"
-              className="rounded-md"
+              className="gallery"
             />
           </figure>
         </div>
@@ -108,7 +108,7 @@ export default function Gallery() {
               alt="Parquinho"
               data-fancybox="gallery"
               data-caption="Parquinho"
-              className="rounded-md"
+              className="gallery"
             />
           </figure>
         </div>
@@ -119,7 +119,7 @@ export default function Gallery() {
               alt="Piscina"
               data-fancybox="gallery"
               data-caption="Piscina"
-              className="rounded-md"
+              className="gallery"
             />
           </figure>
         </div>
@@ -130,7 +130,7 @@ export default function Gallery() {
               alt="Piscina"
               data-fancybox="gallery"
               data-caption="Piscina"
-              className="rounded-md"
+              className="gallery"
             />
           </figure>
         </div>

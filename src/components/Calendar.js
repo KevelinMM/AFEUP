@@ -5,7 +5,7 @@ export default function Calendar() {
       <iframe
         src="https://embed.styledcalendar.com/#rqh6A0DP4tUlDoyASTQO"
         title="Styled Calendar"
-        className=" styled-calendar-container w-full  px-4 md:px-20 lg:px-44"
+        className=" styled-calendar-container w-full px-8 md:px-20 lg:px-52"
         data-cy="calendar-embed-iframe"
 
       ></iframe>

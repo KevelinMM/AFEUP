@@ -13,8 +13,8 @@ export default function Home() {
       <a
         target="_blank"
         rel="noopener noreferrer"
-        href="https://api.whatsapp.com/send/?phone=5549999382112"
-        className="cursor-pointer bg-green-500 rounded-full w-16 h-16 animate-bounce fixed z-10 right-4 bottom-4"
+        href="https://api.whatsapp.com/send/?phone=5549991623564"
+        className="cursor-pointer bg-green-400 rounded-full w-16 h-16 fixed z-10 right-4 bottom-4 soft-transition"
       >
         <svg class="text-[40px] p-3 text-white ">
           <svg
@@ -30,13 +30,19 @@ export default function Home() {
           </svg>
         </svg>
       </a>
-      <button className="bg-gray-500 text-gray-100 mb-4 text-xl" id="contato">
-        Reservar local
-      </button>
+      <div className="w-full text-center mb-4">
+        <a
+          className=" font-medium text-md bg-gray-100  shadow-md px-4 py-2 rounded"
+          href="#contato"
+        >
+          Reservar local
+        </a>
+      </div>
+
       <div className="page-content">
         <div className="text-justify flex flex-col items-center p-4">
-          <div className=" grid grid-flow-row gap-4 text-neutral-600  sm:grid-cols-1 md:grid-cols-2  ">
-            <div className=" bg-slate-200 rounded-lg w-96">
+          <div className="mx-4 grid grid-flow-row gap-4 text-neutral-600 md:mx-12 lg:mx-52 sm:grid-cols-1 md:grid-cols-2  ">
+            <div className=" bg-slate-200 rounded-lg w-full">
               <h2 className="text-gray-600 ">Sobre nós</h2>
               <p className="px-4 mb-4">
                 A Associação dos Funcionários da UNIPLAC, é uma entidade que
@@ -44,19 +50,19 @@ export default function Home() {
                 sociedade civil, com personalidade jurídica de duração
                 indeterminada, designada pela sigla AFEUP.
               </p>
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                className=" flex flex-col items-center  rounded border shadow-md soft-transition text-gray-600 px-3 py-1  mx-auto "
-                href="https://api.whatsapp.com/send/?phone=5549999382112"
-              >
-                <span className="text-sm font-medium pr-2 pb-2">
-                  Entre em contato{" "}
-                </span>
-                <BsWhatsapp />
-              </a>
+              <div className="flex flex-col items-center rounded border  text-gray-600 px-3 py-1 mx-auto">
+                <a
+                  className="bg-green-300 text-center py-1 px-2 soft-transition rounded"
+                  href="https://api.whatsapp.com/send/?phone=5549991623564"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <span className="text-sm font-medium">Entre em contato </span>
+                  <BsWhatsapp className="mx-auto mb-2" />
+                </a>
+              </div>
             </div>
-            <div className="bg-slate-200 rounded-lg w-96">
+            <div className="bg-slate-200 rounded-lg w-full">
               <h2 className="text-gray-600">Finalidades</h2>
               <p className="pl-4 px-4 mb-4">
                 Defender os interesses dos seus associados.

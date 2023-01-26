@@ -30,7 +30,7 @@ export default function Home() {
           </svg>
         </svg>
       </a>
-      <div className="w-full text-center mb-4">
+      <div className="w-full text-center mb-4" >
         <a
           className=" font-medium text-md bg-gray-100  shadow-md px-4 py-2 rounded"
           href="#contato"

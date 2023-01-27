@@ -53,6 +53,7 @@ export default function Home() {
               <div className="px-4 mb-4 leading-relaxed underline text-teal-600">
                 <a
                   target="_blank"
+                  rel="noopener noreferrer"
                   href="https://drive.google.com/file/d/1CO7bUaBqNVZdno7ba-mZQn9IBSSbIUAI/view?usp=share_link"
                 >
                   Diretoria AFEUP 2022
@@ -60,6 +61,7 @@ export default function Home() {
                 <br></br>
                 <a
                   target="_blank"
+                  rel="noopener noreferrer"
                   href="https://drive.google.com/file/d/11_zMoZAvF8ka4EumJkEEaDmhBu_7rHLV/view?usp=share_link"
                 >
                   Demonstrativo Financeiro
@@ -67,6 +69,7 @@ export default function Home() {
                 <br></br>
                 <a
                   target="_blank"
+                  rel="noopener noreferrer"
                   href="https://drive.google.com/file/d/1AI-BO3qDTNgHZw9NxiJ4TfOSLJP96VXm/view?usp=share_link"
                 >
                   Normas de Funcionamento

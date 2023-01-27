@@ -30,7 +30,7 @@ export default function Home() {
           </svg>
         </svg>
       </a>
-      <div className="w-full text-center mb-4" >
+      <div className="w-full text-center mb-4">
         <a
           className=" font-medium text-md bg-gray-100  shadow-md px-4 py-2 rounded"
           href="#contato"
@@ -41,41 +41,56 @@ export default function Home() {
 
       <div className="page-content">
         <div className="text-justify flex flex-col items-center p-4">
-          <div className="mx-4 grid grid-flow-row gap-4 text-neutral-600 md:mx-12 lg:mx-52 sm:grid-cols-1 md:grid-cols-2  ">
+          <div className="mx-4 grid grid-flow-row gap-4 text-neutral-600  sm:grid-cols-1 md:grid-cols-2  ">
             <div className=" bg-slate-200 rounded-lg w-full">
               <h2 className="text-gray-600 ">Sobre nós</h2>
-              <p className="px-4 mb-4">
+              <p className="px-4 mb-4 leading-relaxed">
                 A Associação dos Funcionários da UNIPLAC, é uma entidade que
                 congregará todos os funcionários que a ela se vinculem. É uma
                 sociedade civil, com personalidade jurídica de duração
                 indeterminada, designada pela sigla AFEUP.
               </p>
-              <div className="flex flex-col items-center rounded border  text-gray-600 px-3 py-1 mx-auto">
+              <div className="px-4 mb-4 leading-relaxed underline text-teal-600">
                 <a
-                  className="bg-green-300 text-center py-1 px-2 soft-transition rounded"
-                  href="https://api.whatsapp.com/send/?phone=5549991623564"
                   target="_blank"
-                  rel="noopener noreferrer"
+                  href="https://drive.google.com/file/d/1CO7bUaBqNVZdno7ba-mZQn9IBSSbIUAI/view?usp=share_link"
                 >
-                  <span className="text-sm font-medium">Entre em contato </span>
-                  <BsWhatsapp className="mx-auto mb-2" />
+                  Diretoria AFEUP 2022
+                </a>
+                <br></br>
+                <a
+                  target="_blank"
+                  href="https://drive.google.com/file/d/11_zMoZAvF8ka4EumJkEEaDmhBu_7rHLV/view?usp=share_link"
+                >
+                  Demonstrativo Financeiro
+                </a>
+                <br></br>
+                <a
+                  target="_blank"
+                  href="https://drive.google.com/file/d/1AI-BO3qDTNgHZw9NxiJ4TfOSLJP96VXm/view?usp=share_link"
+                >
+                  Normas de Funcionamento
                 </a>
               </div>
             </div>
             <div className="bg-slate-200 rounded-lg w-full">
               <h2 className="text-gray-600">Finalidades</h2>
-              <p className="pl-4 px-4 mb-4">
-                Defender os interesses dos seus associados.
-                <br></br>
-                Zelar pela dignidade e prestígio dos associados.
-                <br></br>
-                Estimular entre os associados o sentido do coleguismo e amizade.
-                <br></br>
-                Promover o congraçamento social e recreativo entre os membros.
-                <br></br>
-                Disponibilizar convênios de serviços empresariais aos
-                associados.
-              </p>
+              <ul className="pl-4 px-4 mb-4 leading-relaxed list-disc ml-5">
+                <li>Defender os interesses dos seus associados.</li>
+                <li>Zelar pela dignidade e prestígio dos associados.</li>
+                <li>
+                  Estimular entre os associados o sentido do coleguismo e
+                  amizade.
+                </li>
+                <li>
+                  Promover o congraçamento social e recreativo entre os membros.
+                </li>
+                <li>
+                  Disponibilizar convênios de serviços empresariais aos
+                  associados.
+                </li>
+              
+              </ul>
             </div>
           </div>
         </div>
@@ -83,9 +98,9 @@ export default function Home() {
         <h2 className="text-gray-600 ">Nosso espaço</h2>
 
         <Gallery />
-        <h2 className="text-zinc-100">Calendário de eventos</h2>
+        <h2 className="text-zinc-100 ">Calendário de eventos</h2>
         <Calendar />
-        <h2 className="text-zinc-100">Reserve seu dia para confraternização</h2>
+        <h2 className="text-zinc-100  ">Reserve seu dia para confraternização</h2>
         <Forms />
 
         <Parceiros />

@@ -1,12 +1,12 @@
 export default function Forms() {
   return (
     <section className="md:flex" id="contato">
-      <div className="grid grid-cols-1 lg:grid-cols-2 p-2 md:p-4 md:mx-24 space-x-6 w-full ">
+      <div className="grid grid-cols-1 lg:grid-cols-2 p-2   w-full ">
         <div className="h-full bg-slate-200 bg-opacity-90  rounded-xl  mx-4">
           <img
-            className="mx-auto "
+            className="mx-auto mt-4"
             src="../LogoTransparente.png"
-            width="150"
+            width="140"
             height=""
             alt="consultoria-fundo"
           />
@@ -23,7 +23,7 @@ export default function Forms() {
         </div>
        
 
-        <form action="#" className=" items-center pr-4">
+        <form action="#" className=" items-center p-2">
           <div className=" text-slate-200 ">
             <label for="email" className=" mb-2 text-sm font-medium w-96 pt-2 ">
               Seu email

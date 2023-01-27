@@ -6,7 +6,7 @@
 @tailwind utilities;
 
 html {
-  @apply bg-slate-300  text-gray-700;
+  @apply bg-slate-300 bg-gradient-to-t from-gray-700  text-gray-700 ;
 }
 
 input,
@@ -31,7 +31,7 @@ h2 {
 }
 
 .page-content {
-  @apply  bg-gradient-to-t from-gray-700 text-black text-justify  mb-12 rounded-sm  bg-opacity-80;
+  @apply md:mx-12 lg:mx-52  text-justify  mb-12 rounded-sm  bg-opacity-80;
 }
 
 .gallery {

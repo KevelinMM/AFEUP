@@ -11,7 +11,7 @@ export default function Header() {
         <a href="#" className="flex items-center ">
           <img
             src="../../LogoTransparente.png"
-            className="h-12 md:h-14 mr-3 "
+            className="h-8 md:h-12 mr-3 "
             alt="AFEUP Logo"
           />
         </a>

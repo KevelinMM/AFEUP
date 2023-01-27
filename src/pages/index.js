@@ -1,7 +1,6 @@
 import Calendar from "../components/Calendar";
 import Forms from "../components/Forms";
 import Gallery from "../components/Gallery";
-import { BsWhatsapp } from "react-icons/bs";
 import Parceiros from "../components/Parceiros";
 
 export default function Home() {
@@ -32,7 +31,7 @@ export default function Home() {
       </a>
       <div className="w-full text-center mb-4">
         <a
-          className=" font-medium text-md bg-gray-100  shadow-md px-4 py-2 rounded"
+          className=" font-medium text-md bg-slate-200 bg-opacity-80  shadow-md px-4 py-2 rounded"
           href="#contato"
         >
           Reservar local
@@ -42,7 +41,7 @@ export default function Home() {
       <div className="page-content">
         <div className="text-justify flex flex-col items-center p-4">
           <div className="mx-4 grid grid-flow-row gap-4 text-neutral-600  sm:grid-cols-1 md:grid-cols-2  ">
-            <div className=" bg-slate-200 rounded-lg w-full">
+            <div className=" bg-slate-200 bg-opacity-80 rounded-lg w-full">
               <h2 className="text-gray-600 ">Sobre nós</h2>
               <p className="px-4 mb-4 leading-relaxed">
                 A Associação dos Funcionários da UNIPLAC, é uma entidade que
@@ -76,7 +75,7 @@ export default function Home() {
                 </a>
               </div>
             </div>
-            <div className="bg-slate-200 rounded-lg w-full">
+            <div className="bg-slate-200 bg-opacity-80 rounded-lg w-full">
               <h2 className="text-gray-600">Finalidades</h2>
               <ul className="pl-4 px-4 mb-4 leading-relaxed list-disc ml-5">
                 <li>Defender os interesses dos seus associados.</li>

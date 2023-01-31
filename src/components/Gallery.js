@@ -42,7 +42,7 @@ export default function Gallery() {
             <img src="../FotosLocal/casa1.jpeg" alt="Casa" />
           </a>
         </div>
-        <div className="w-72 shadow-xl">
+        <div className="w-72 ">
           <a
             data-fancybox
             href="../FotosLocal/casa2.jpeg"

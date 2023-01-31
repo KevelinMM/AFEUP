@@ -54,12 +54,13 @@ export default function Parceiros() {
         </div>
         <div className="cursor-pointer">
           <Image
-            src={`/LogosParceiros/Recrearr.png`}
-            alt="Logo BelezzaVitalle"
+            src={`/LogosParceiros/TopWay.png`}
+            alt="Logo Liberto"
             width={100}
-            height={90}
+            height={40}
           />
         </div>
+      
         <div className="cursor-pointer">
           <Image
             src={`/LogosParceiros/Rockfeller.png`}
@@ -72,8 +73,8 @@ export default function Parceiros() {
           <Image
             src={`/LogosParceiros/SantaRosa.png`}
             alt="Logo Camden"
-            width={80}
-            height={55}
+            width={100}
+            height={60}
           />
         </div>
         <div className="cursor-pointer">
@@ -84,14 +85,7 @@ export default function Parceiros() {
             height={70}
           />
         </div>
-        <div className="cursor-pointer">
-          <Image
-            src={`/LogosParceiros/TopWay.png`}
-            alt="Logo Liberto"
-            width={100}
-            height={40}
-          />
-        </div>
+
         <div className="cursor-pointer">
           <Image
             src={`/LogosParceiros/Uniplac.png`}
@@ -106,6 +100,14 @@ export default function Parceiros() {
             alt="Logo PostoUniversitario"
             width={150}
             height={80}
+          />
+        </div>
+        <div className="cursor-pointer">
+          <Image
+            src={`/LogosParceiros/Recrearr.png`}
+            alt="Logo BelezzaVitalle"
+            width={100}
+            height={90}
           />
         </div>
         <a

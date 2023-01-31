@@ -37,7 +37,7 @@ export default function Gallery() {
             data-fancybox
             href="../FotosLocal/casa1.jpeg"
             class="btn btn-primary"
-            data-caption="Casa"
+            data-caption="Salão B"
           >
             <img src="../FotosLocal/casa1.jpeg" alt="Casa" />
           </a>
@@ -47,7 +47,7 @@ export default function Gallery() {
             data-fancybox
             href="../FotosLocal/casa2.jpeg"
             class="btn btn-primary"
-            data-caption="Casa"
+            data-caption="Salão A"
           >
             <img src="../FotosLocal/casa2.jpeg" alt="Casa" />
           </a>
@@ -57,7 +57,7 @@ export default function Gallery() {
             data-fancybox
             href="../FotosLocal/casa3.jpeg"
             class="btn btn-primary"
-            data-caption="Casa"
+            data-caption="Salão A"
           >
             <img src="../FotosLocal/casa3.jpeg" alt="Casa" />
           </a>
@@ -67,7 +67,7 @@ export default function Gallery() {
             data-fancybox
             href="../FotosLocal/casaArea.jpeg"
             class="btn btn-primary"
-            data-caption="Casa"
+            data-caption="Vestiário e Salão"
           >
             <img src="../FotosLocal/casaArea.jpeg" alt="Casa" />
           </a>

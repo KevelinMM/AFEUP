@@ -91,7 +91,6 @@ export default function Home() {
                   Disponibilizar convênios de serviços empresariais aos
                   associados.
                 </li>
-              
               </ul>
             </div>
           </div>
@@ -100,11 +99,14 @@ export default function Home() {
         <h2 className="text-gray-600 ">Nosso espaço</h2>
 
         <Gallery />
+
         <h2 className="text-zinc-100 ">Calendário de eventos</h2>
         <Calendar />
-        <h2 className="text-zinc-100  ">Reserve seu dia para confraternização</h2>
+        <h2 className="text-zinc-100  ">
+          Reserve seu dia para confraternização
+        </h2>
         <Forms />
-
+        <h2 className="text-zinc-100  ">Parceiros</h2>
         <Parceiros />
       </div>
     </section>

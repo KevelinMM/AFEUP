@@ -4,7 +4,7 @@ export default function Parceiros() {
   return (
     <div
       id="parceiros"
-      className=" bg-slate-200 bg-opacity-60 rounded-lg w-full mx-6  grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-6 py-4 md:py-10 text-center"
+      className=" bg-slate-200 bg-opacity-60 rounded-lg w-full pb-10 grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-6 py-4 md:py-10 text-center px-5 items-center"
     >
       <div className="cursor-pointer ">
         <Image

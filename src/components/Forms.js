@@ -23,26 +23,26 @@ export default function Forms() {
         </div>
        
 
-        <form action="#" className=" items-center p-2">
+        <form action="https://formsubmit.co/afeup@uniplaclages.edu.br" method="POST" className=" items-center p-2">
           <div className=" text-slate-200 ">
             <label for="email" className=" mb-2 text-sm font-medium w-96 pt-2 ">
               Seu email
             </label>
             <input
               type="email"
-              id="email"
-              className="shadow-sm bg-slate-200 bg-opacity-90 border border-gray-300  text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 "
+              name="email"
+              className="text-gray-900 shadow-sm bg-slate-200 bg-opacity-90 border border-gray-300  text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 "
               placeholder="name@exemplo.com"
               required
             />
           </div>
           <div>
-            <label for="number" className="text-slate-200 block my-2 text-sm font-medium  ">
+            <label for="numero" className="text-slate-200 block my-2 text-sm font-medium  ">
               Contato
             </label>
             <input
-              type="email"
-              id="email"
+              type="number"
+              name="numero"
               className="shadow-sm bg-slate-200  bg-opacity-90 border border-gray-300  text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 "
               placeholder="(00) 0000-0000"
               required
@@ -54,23 +54,24 @@ export default function Forms() {
             </label>
             <input
               type="text"
-              id="subject"
+              name="data"
               className="block p-3 w-full text-sm  bg-slate-200  bg-opacity-90 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 "
               placeholder="Selecione a data"
               required
             />
           </div>
           <div className="sm:col-span-2">
-            <label for="message" className="text-slate-200 block my-2 text-sm font-medium  ">
+            <label for="mensagem" className="text-slate-200 block my-2 text-sm font-medium  ">
               Mensagem
             </label>
             <textarea
-              id="message"
+              name="mensagem"
               rows="6"
               className="block p-2.5 w-full text-sm text-gray-900 bg-slate-200  bg-opacity-90 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 "
               placeholder="Digite aqui seu nome completo e matrícula de funcionario da Uniplac!"
             ></textarea>
           </div>
+          <input type="hidden" name="_captcha" value="false"></input>
           <button type="submit" className="button my-3 bg-slate-300 ">
             Enviar
           </button>

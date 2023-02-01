@@ -148,7 +148,7 @@ export default function Parceiros() {
         <br></br>
 
         <div className="mx-auto w-full absolute">
-          <a className="group-hover:block hidden">Saiba mais</a>
+          <p className="group-hover:block hidden">Saiba mais</p>
         </div>
       </div>
 

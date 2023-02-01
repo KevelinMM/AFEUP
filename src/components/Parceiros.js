@@ -6,7 +6,7 @@ export default function Parceiros() {
       id="parceiros"
       className=" bg-slate-200 bg-opacity-60 rounded-lg w-full pb-10 grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-6 py-4 md:py-10 text-center px-5 items-center"
     >
-      <div className="cursor-pointer ">
+      <div className="cursor-pointer hover:scale-105">
         <Image
           src={`/LogosParceiros/BelezzaVitalle.png`}
           alt="Logo BelezzaVitalle"

@@ -11,6 +11,7 @@ export default function Gallery() {
           >
             <img src="../FotosLocal/area.jpeg" alt="Área externa" />
           </a>
+
         </div>
         <div className="w-72 shadow-xl">
           <a
@@ -42,7 +43,7 @@ export default function Gallery() {
             <img src="../FotosLocal/casa1.jpeg" alt="Casa" />
           </a>
         </div>
-        <div className="w-72 ">
+        <div className="w-72 shadow-xl ">
           <a
             data-fancybox
             href="../FotosLocal/casa2.jpeg"

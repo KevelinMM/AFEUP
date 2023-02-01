@@ -158,7 +158,7 @@ export default function Parceiros() {
           rel="noopener noreferrer"
           href="https://drive.google.com/file/d/1wVYZuzv8OkkRh6RC1GQA5lRF6LZGp6dG/view?usp=share_link"
         >
-         Acquazero Lages
+         Acquazero
         </a>
         <br></br>
 

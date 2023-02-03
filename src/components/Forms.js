@@ -56,7 +56,7 @@ export default function Forms() {
               type="text"
               name="data"
               className="block p-3 w-full text-sm  bg-slate-200  bg-opacity-90 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 "
-              placeholder="Selecione a data"
+              placeholder="Ex: 12/01/2023"
               required
             />
           </div>

@@ -33,7 +33,7 @@ export default function Parceiros() {
       </div>
 
       <div className="cursor-pointer hover:scale-105 group z-40">
-        <a href="https://www.camden.com.br/" target="_blank" rel="nonreferrer">
+        <a href="https://www.camden.com.br/" target="_blank" rel="noreferrer">
           <Image
             src={`/LogosParceiros/Camden.png`}
             alt="Logo Camden"
@@ -47,7 +47,7 @@ export default function Parceiros() {
       </div>
 
       <div className="cursor-pointer hover:scale-105 group z-40">
-        <a href="https://coclages.com.br/" target="_blank" rel="nonreferrer">
+        <a href="https://coclages.com.br/" target="_blank" rel="noreferrer">
           <Image
             src={`/LogosParceiros/COC.png`}
             alt="Logo COC"
@@ -96,7 +96,7 @@ export default function Parceiros() {
       </div>
 
       <div className="cursor-pointer group hover:scale-105 group z-20">
-        <a href="https://www.rockfeller.com.br/escola/lages" target="_blank" rel="nonreferrer">
+        <a href="https://www.rockfeller.com.br/escola/lages" target="_blank" rel="noreferrer">
           <Image
             src={`/LogosParceiros/Rockfeller.png`}
             alt="Logo Bullla"
@@ -134,7 +134,7 @@ export default function Parceiros() {
       </div>
 
       <div className="cursor-pointer hover:scale-105 group z-40">
-      <a href="https://www.uniplaclages.edu.br" target="_blank" rel="nonreferrer">
+      <a href="https://www.uniplaclages.edu.br" target="_blank" rel="noreferrer">
 
         <Image
           src={`/LogosParceiros/Uniplac.png`}
@@ -168,7 +168,7 @@ export default function Parceiros() {
         <a
           href="https://www.melhorescola.com.br/escola/centro-de-educacao-infantil-recrear"
           target="_blank"
-          rel="nonreferrer"
+          rel="noreferrer"
         >
           <Image
             src={`/LogosParceiros/Recrearr.png`}

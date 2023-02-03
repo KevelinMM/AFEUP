@@ -73,6 +73,14 @@ export default function Home() {
                 >
                   Normas de Funcionamento
                 </a>
+                <br></br>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://i.imgur.com/HIy8rrS.jpeg"
+                >
+                  Plano de Saúde Uniodonto
+                </a>
               </div>
             </div>
             <div className="bg-slate-200 bg-opacity-80 rounded-lg w-full">

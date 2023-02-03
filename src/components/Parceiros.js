@@ -14,7 +14,7 @@ export default function Parceiros() {
           height={70}
         />
         <div className="mx-auto w-full absolute bg-gray-100 rounded shadow">
-          <a className="group-hover:block hidden">15% Sócios e Dependentes</a>
+          <p className="group-hover:block hidden">15% Sócios e Dependentes</p>
         </div>
       </div>
 
@@ -26,9 +26,9 @@ export default function Parceiros() {
           height={45}
         />
         <div className="mx-auto w-full absolute">
-          <a className="group-hover:block hidden bg-gray-100 rounded shadow">
+          <p className="group-hover:block hidden bg-gray-100 rounded shadow">
             Cartão de crédito com desconto em folha.
-          </a>
+          </p>
         </div>
       </div>
 
@@ -68,9 +68,9 @@ export default function Parceiros() {
           height={50}
         />
         <div className="mx-auto w-full absolute bg-gray-100 rounded shadow">
-          <a className="group-hover:block hidden">
+          <p className="group-hover:block hidden">
             20% de desconto, (49) 991933934
-          </a>
+          </p>
         </div>
       </div>
 
@@ -91,7 +91,7 @@ export default function Parceiros() {
           height={40}
         />
         <div className="mx-auto w-full absolute bg-gray-100 rounded shadow">
-          <a className="group-hover:block hidden"> (49) 32250949</a>
+          <p className="group-hover:block hidden"> (49) 32250949</p>
         </div>
       </div>
 
@@ -117,7 +117,7 @@ export default function Parceiros() {
           height={60}
         />
         <div className="mx-auto w-full absolute bg-gray-100 rounded shadow">
-          <a className="group-hover:block hidden">(49) 32220391</a>
+          <p className="group-hover:block hidden">(49) 32220391</p>
         </div>
       </div>
 
@@ -129,7 +129,7 @@ export default function Parceiros() {
           height={70}
         />
         <div className="mx-auto w-full absolute bg-gray-100 rounded shadow">
-          <a className="group-hover:block hidden">8% Sócios e Dependentes</a>
+          <p className="group-hover:block hidden">8% Sócios e Dependentes</p>
         </div>
       </div>
 
@@ -143,9 +143,9 @@ export default function Parceiros() {
           height={70}
         />
         <div className="mx-auto w-full absolute">
-          <a className="group-hover:block hidden bg-gray-100 rounded shadow">
+          <p className="group-hover:block hidden bg-gray-100 rounded shadow">
             Desconto de 30% nos mestrados
-          </a>
+          </p>
         </div>
         </a>
       </div>
@@ -158,9 +158,9 @@ export default function Parceiros() {
           height={80}
         />
         <div className="mx-auto w-full absolute bg-gray-100 rounded shadow">
-          <a className="group-hover:block hidden ">
+          <p className="group-hover:block hidden ">
             20% de desconto nos aparelhos auditivos Contato: (49) 32246689
-          </a>
+          </p>
         </div>
       </div>
 
@@ -207,7 +207,7 @@ export default function Parceiros() {
           Acquazero
         </a>
         <div className="mx-auto w-full absolute bg-gray-100 rounded shadow">
-          <a className="group-hover:block hidden">Saiba mais</a>
+          <p className="group-hover:block hidden">Saiba mais</p>
         </div>
       </div>
     </div>

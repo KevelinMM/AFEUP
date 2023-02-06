@@ -117,7 +117,7 @@ export default function Parceiros() {
           height={60}
         />
         <div className="mx-auto w-full absolute bg-gray-100 rounded shadow">
-          <p className="group-hover:block hidden">Contato: (49) 32220391</p>
+          <p className="group-hover:block hidden">Desconto de 15% <br></br> Contato: (49) 32220391</p>
         </div>
       </div>
 
@@ -189,7 +189,7 @@ export default function Parceiros() {
         <a
           target="_blank"
           rel="noopener noreferrer"
-          href="https://drive.google.com/file/d/12njiA4Oj77fzYXW27SSHnq7RN9A-vVj2/view?usp=share_link"
+          href="https://drive.google.com/file/d/1rbKouYVYsl4v2lyA30a_qy9jJ1qJyCg0/view"
         >
           Pladisa
         </a>
@@ -202,7 +202,7 @@ export default function Parceiros() {
         <a
           target="_blank"
           rel="noopener noreferrer"
-          href="https://drive.google.com/file/d/1wVYZuzv8OkkRh6RC1GQA5lRF6LZGp6dG/view?usp=share_link"
+          href="https://drive.google.com/file/d/1MMcrmAyx-CS5JRdEp0ikVv4AIrw2_H19/view"
         >
           Acquazero
         </a>
@@ -215,7 +215,7 @@ export default function Parceiros() {
         <a
           target="_blank"
           rel="noopener noreferrer"
-          href="https://i.imgur.com/HIy8rrS.jpeg"
+          href="https://drive.google.com/file/d/1XDO71_gCviJ5VZvCkxIHiQIAlZjugIcY/view"
         >
           Plano de Saúde Uniodonto
         </a>

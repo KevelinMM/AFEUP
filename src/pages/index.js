@@ -53,7 +53,7 @@ export default function Home() {
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
-                  href="https://drive.google.com/file/d/1CO7bUaBqNVZdno7ba-mZQn9IBSSbIUAI/view?usp=share_link"
+                  href="https://drive.google.com/file/d/1J2C3xs7F0pRy5SH7EpsybgH6do4D1igd/view"
                 >
                   Diretoria AFEUP 2022
                 </a>
@@ -61,7 +61,7 @@ export default function Home() {
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
-                  href="https://drive.google.com/file/d/11_zMoZAvF8ka4EumJkEEaDmhBu_7rHLV/view?usp=share_link"
+                  href="https://drive.google.com/file/d/1EANaSF_aL6agxzCFRMdDe49KsNAluRij/view"
                 >
                   Demonstrativo Financeiro
                 </a>
@@ -69,9 +69,17 @@ export default function Home() {
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
-                  href="https://drive.google.com/file/d/1AI-BO3qDTNgHZw9NxiJ4TfOSLJP96VXm/view?usp=share_link"
+                  href="https://drive.google.com/file/d/1Lsye1r1KzYoUHlVHzf48mpqe1yNROn6F/view"
                 >
                   Normas de Funcionamento
+                </a>
+                <br></br>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://drive.google.com/file/d/1k3B_CAwtmjhUARCWSQoAnXeyxxIILenz/view"
+                >
+                  Estatuto da AFEUP
                 </a>
               </div>
             </div>

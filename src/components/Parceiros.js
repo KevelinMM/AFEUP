@@ -14,7 +14,7 @@ export default function Parceiros() {
           height={70}
         />
         <div className="mx-auto w-full absolute bg-gray-100 rounded shadow">
-          <p className="group-hover:block hidden">15% Sócios e Dependentes</p>
+          <p className="group-hover:block hidden">Belezza Vitalle <br></br> 15% Sócios e Dependentes</p>
         </div>
       </div>
 
@@ -69,7 +69,7 @@ export default function Parceiros() {
         />
         <div className="mx-auto w-full absolute bg-gray-100 rounded shadow">
           <p className="group-hover:block hidden">
-            20% de desconto, (49) 991933934
+            20% de desconto <br></br> Contato: (49) 991933934
           </p>
         </div>
       </div>
@@ -91,7 +91,7 @@ export default function Parceiros() {
           height={40}
         />
         <div className="mx-auto w-full absolute bg-gray-100 rounded shadow">
-          <p className="group-hover:block hidden"> (49) 32250949</p>
+          <p className="group-hover:block hidden">Desconto de 15% <br></br>Contato: (49) 32250949</p>
         </div>
       </div>
 
@@ -104,7 +104,7 @@ export default function Parceiros() {
             height={55}
           />
           <div className="mx-auto w-full absolute bg-gray-100 rounded shadow">
-            <p className="group-hover:block hidden">Rockfeller</p>
+            <p className="group-hover:block hidden">Desconto de 35%</p>
           </div>
         </a>
       </div>
@@ -117,7 +117,7 @@ export default function Parceiros() {
           height={60}
         />
         <div className="mx-auto w-full absolute bg-gray-100 rounded shadow">
-          <p className="group-hover:block hidden">(49) 32220391</p>
+          <p className="group-hover:block hidden">Contato: (49) 32220391</p>
         </div>
       </div>
 
@@ -159,7 +159,7 @@ export default function Parceiros() {
         />
         <div className="mx-auto w-full absolute bg-gray-100 rounded shadow">
           <p className="group-hover:block hidden ">
-            20% de desconto nos aparelhos auditivos Contato: (49) 32246689
+            20% de desconto nos aparelhos auditivos <br></br> Contato: (49) 32246689
           </p>
         </div>
       </div>
@@ -178,7 +178,7 @@ export default function Parceiros() {
           />
           <div className="mx-auto w-full absolute bg-gray-100 rounded shadow">
             <p className="group-hover:block hidden">
-              20% para turmas de Berçário e Maternal 1 e 2, e 15% turma de
+              20% para turmas de Berçário e Maternal 1 e 2; <br></br> 15% turma de
               recreação.
             </p>
           </div>
@@ -205,6 +205,19 @@ export default function Parceiros() {
           href="https://drive.google.com/file/d/1wVYZuzv8OkkRh6RC1GQA5lRF6LZGp6dG/view?usp=share_link"
         >
           Acquazero
+        </a>
+        <div className="mx-auto w-full absolute bg-gray-100 rounded shadow">
+          <p className="group-hover:block hidden">Saiba mais</p>
+        </div>
+      </div>
+
+      <div className="mt-8 cursor-pointer group hover:scale-105 text-center">
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://i.imgur.com/HIy8rrS.jpeg"
+        >
+          Plano de Saúde Uniodonto
         </a>
         <div className="mx-auto w-full absolute bg-gray-100 rounded shadow">
           <p className="group-hover:block hidden">Saiba mais</p>

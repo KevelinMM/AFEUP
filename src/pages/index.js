@@ -114,7 +114,7 @@ export default function Home() {
           Reserve seu dia para confraternização
         </h2>
         <Forms />
-        <h2 className="text-zinc-100  ">Parceiros</h2>
+        <h2 className="text-zinc-100  ">Convênios</h2>
         <Parceiros />
       </div>
     </section>

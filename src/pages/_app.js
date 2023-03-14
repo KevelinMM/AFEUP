@@ -16,6 +16,7 @@ function MyApp({ Component, pageProps }) {
           rel="stylesheet"
         />
         <link href="https://codepen.io/fancyapps/pen/Kxdwjj" rel="stylesheet" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/logoAfeup.png"></link>
       </Head>
       <Header />
       <Component {...pageProps} className="min-h-screen" />

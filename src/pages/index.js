@@ -29,9 +29,9 @@ export default function Home() {
           </svg>
         </svg>
       </a>
-      <div className="w-full text-center mb-4">
+      <div className="w-full text-center mb-4 transition ease-in-out duration-150 hover:scale-105">
         <a
-          className=" font-medium text-md bg-slate-200 bg-opacity-80  shadow-md px-4 py-2 rounded"
+          className=" font-bold text-xl bg-slate-100 bg-opacity-80  shadow-xl px-4 py-2 rounded"
           href="#contato"
         >
           Reservar local

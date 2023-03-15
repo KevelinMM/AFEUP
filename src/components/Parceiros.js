@@ -6,17 +6,6 @@ export default function Parceiros() {
       id="parceiros"
       className=" bg-slate-200 bg-opacity-60 rounded-lg w-full pb-10 grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-6 py-4 md:py-10 text-center px-5 items-center"
     >
-      <div className="cursor-pointer hover:scale-105 group z-50">
-        <Image
-          src={`/LogosParceiros/BelezzaVitalle.png`}
-          alt="Logo BelezzaVitalle"
-          width={130}
-          height={70}
-        />
-        <div className="mx-auto w-full absolute bg-gray-100 rounded shadow">
-          <p className="group-hover:block hidden">Belezza Vitalle <br></br> 15% Sócios e Dependentes</p>
-        </div>
-      </div>
 
       <div className="cursor-pointer hover:scale-105 group z-50">
         <Image
@@ -58,6 +47,20 @@ export default function Parceiros() {
             <p className="group-hover:block hidden">20% de desconto</p>
           </div>
         </a>
+      </div>
+
+      <div className="cursor-pointer hover:scale-105 group z-40">
+      
+          <Image
+            src={`/LogosParceiros/Conserlex.png`}
+            alt="Logo conserlex"
+            width={90}
+            height={90}
+          />
+          <div className="mx-auto w-full absolute bg-gray-100 rounded shadow">
+            <p className="group-hover:block hidden">Desconto na declaração do imposto de renda. (49) 3289-2700</p>
+          </div>
+     
       </div>
 
       <div className="cursor-pointer hover:scale-105 group z-40">

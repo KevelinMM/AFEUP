@@ -44,10 +44,12 @@ export default function Home() {
             <div className=" bg-slate-200 bg-opacity-80 rounded-lg w-full">
               <h2 className="text-gray-600 ">Sobre nós</h2>
               <p className="px-4 mb-4 leading-relaxed">
-                A Associação dos Funcionários da UNIPLAC, é uma entidade que
-                congregará todos os funcionários que a ela se vinculem. É uma
-                sociedade civil, com personalidade jurídica de duração
-                indeterminada, designada pela sigla AFEUP.
+                A AFEUP - Associação dos funcionários da Uniplac, é uma entidade
+                sem fins lucrativos focada no bem-estar de seus associados e
+                dependentes, seja na busca por convênios, bem como a
+                disponibilidade de um lindo e agradável espaço para lazer e
+                descontração. Todos os funcionários da Uniplac podem se tornar
+                sócios e obter esses benefícios. Associe-se!
               </p>
               <div className="px-4 mb-4 leading-relaxed underline text-teal-600">
                 <a

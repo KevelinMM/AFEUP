@@ -40,7 +40,7 @@ export default function Home() {
 
       <div className="page-content">
         <div className="text-justify flex flex-col items-center p-4">
-          <div className="mx-4 grid grid-flow-row gap-4 text-neutral-600  sm:grid-cols-1 md:grid-cols-2  ">
+          <div className="mx-4 grid grid-flow-row gap-4 text-neutral-600 ">
             <div className=" bg-slate-200 bg-opacity-80 rounded-lg w-full">
               <h2 className="text-gray-600 ">Sobre nós</h2>
               <p className="px-4 mb-4 leading-relaxed">
@@ -55,7 +55,7 @@ export default function Home() {
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
-                  href="https://drive.google.com/file/d/1J2C3xs7F0pRy5SH7EpsybgH6do4D1igd/view"
+                  href="https://drive.google.com/file/d/1d92NN2VhmRPWfIqvBkuLpERr7pWw3-Fb/view?usp=share_link"
                 >
                   Diretoria AFEUP 2022
                 </a>
@@ -63,7 +63,7 @@ export default function Home() {
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
-                  href="https://drive.google.com/file/d/1EANaSF_aL6agxzCFRMdDe49KsNAluRij/view"
+                  href="https://drive.google.com/file/d/1ACQGD0G4ad7ut0aPngjUQ-98q_RqIZLm/view?usp=share_link"
                 >
                   Demonstrativo Financeiro
                 </a>
@@ -85,24 +85,6 @@ export default function Home() {
                 </a>
               </div>
             </div>
-            <div className="bg-slate-200 bg-opacity-80 rounded-lg w-full">
-              <h2 className="text-gray-600">Finalidades</h2>
-              <ul className="pl-4 px-4 mb-4 leading-relaxed list-disc ml-5">
-                <li>Defender os interesses dos seus associados.</li>
-                <li>Zelar pela dignidade e prestígio dos associados.</li>
-                <li>
-                  Estimular entre os associados o sentido do coleguismo e
-                  amizade.
-                </li>
-                <li>
-                  Promover o congraçamento social e recreativo entre os membros.
-                </li>
-                <li>
-                  Disponibilizar convênios de serviços empresariais aos
-                  associados.
-                </li>
-              </ul>
-            </div>
           </div>
         </div>
 
@@ -122,3 +104,23 @@ export default function Home() {
     </section>
   );
 }
+
+/*Finalidades
+        <div className="bg-slate-200 bg-opacity-80 rounded-lg w-full">
+              <h2 className="text-gray-600">Finalidades</h2>
+              <ul className="pl-4 px-4 mb-4 leading-relaxed list-disc ml-5">
+                <li>Defender os interesses dos seus associados.</li>
+                <li>Zelar pela dignidade e prestígio dos associados.</li>
+                <li>
+                  Estimular entre os associados o sentido do coleguismo e
+                  amizade.
+                </li>
+                <li>
+                  Promover o congraçamento social e recreativo entre os membros.
+                </li>
+                <li>
+                  Disponibilizar convênios de serviços empresariais aos
+                  associados.
+                </li>
+              </ul>
+            </div>*/

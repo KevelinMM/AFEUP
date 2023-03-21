@@ -226,6 +226,19 @@ export default function Parceiros() {
           <p className="group-hover:block hidden">Saiba mais</p>
         </div>
       </div>
+
+      <div className="mt-8 cursor-pointer group hover:scale-105 text-center">
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://drive.google.com/file/d/1G9ZkI_hfpJSa7iBxbIzh2KOi5B-gS0rD/view?usp=share_link"
+        >
+          Christopher Coberllini Cirurgião Dentista
+        </a>
+        <div className="mx-auto w-full absolute bg-gray-100 rounded shadow">
+          <p className="group-hover:block hidden">20% Saiba mais</p>
+        </div>
+      </div>
     </div>
   );
 }

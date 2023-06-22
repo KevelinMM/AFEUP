@@ -257,8 +257,8 @@ export default function Parceiros() {
           <Image
             src={`/LogosParceiros/Recrearr.png`}
             alt="Logo BelezzaVitalle"
-            width={100}
-            height={90}
+            width={110}
+            height={110}
           />
           <div className="mx-auto w-full absolute bg-gray-100 rounded shadow">
             <p className="group-hover:block hidden">

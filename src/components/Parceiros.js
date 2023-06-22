@@ -125,7 +125,7 @@ export default function Parceiros() {
         </div>
       </div>
 
-      <div className="cursor-pointer group hover:scale-105 group z-40">
+      <div className="cursor-pointer group hover:scale-105 group z-20">
         <a
           href="https://www.oralexclusive.com.br/home"
           target="_blank"
@@ -201,7 +201,7 @@ export default function Parceiros() {
         </div>
       </div>
 
-      <div className="cursor-pointer group hover:scale-105 z-40">
+      <div className="cursor-pointer group hover:scale-105 ">
         <Image
           src={`/LogosParceiros/SesiSenaiIEL.png`}
           alt="Logo COC"

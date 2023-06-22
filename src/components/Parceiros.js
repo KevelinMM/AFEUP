@@ -6,7 +6,6 @@ export default function Parceiros() {
       id="parceiros"
       className=" bg-slate-200 bg-opacity-60 rounded-lg w-full pb-10 grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-6 py-4 md:py-10 text-center px-5 items-center"
     >
-
       <div className="cursor-pointer hover:scale-105 group z-50">
         <Image
           src={`/LogosParceiros/Bullla.png`}
@@ -50,17 +49,66 @@ export default function Parceiros() {
       </div>
 
       <div className="cursor-pointer hover:scale-105 group z-40">
-      
+        <Image
+          src={`/LogosParceiros/Conserlex.png`}
+          alt="Logo conserlex"
+          width={90}
+          height={90}
+        />
+        <div className="mx-auto w-full absolute bg-gray-100 rounded shadow">
+          <p className="group-hover:block hidden">
+            Desconto na declaração do imposto de renda. (49) 3289-2700
+          </p>
+        </div>
+      </div>
+
+      <div className="cursor-pointer hover:scale-105 group z-40">
+        <Image
+          src={`/LogosParceiros/Digimax.jpg`}
+          alt="Logo Digimax"
+          width={90}
+          height={90}
+        />
+        <div className="mx-auto w-full absolute bg-gray-100 rounded shadow">
+          <p className="group-hover:block hidden">
+            Descontos exclusivos nos exames para funcionários e familiares,
+            solicitar desconto com a AFEUP.
+          </p>
+        </div>
+      </div>
+
+      <div className="cursor-pointer hover:scale-105 group z-40">
+        <Image
+          src={`/LogosParceiros/FreshStarthigienização.png`}
+          alt="Logo Fresh Start Higienização"
+          width={130}
+          height={90}
+        />
+        <div className="mx-auto w-full absolute bg-gray-100 rounded shadow">
+          <p className="group-hover:block hidden">
+            Desconto de 15% para sócios e dependentes - (49) 99955-1041
+          </p>
+        </div>
+      </div>
+
+      <div className="cursor-pointer group hover:scale-105 group z-40">
+        <a
+          href="https://www.knnidiomas.com.br/"
+          target="_blank"
+          rel="noreferrer"
+        >
           <Image
-            src={`/LogosParceiros/Conserlex.png`}
-            alt="Logo conserlex"
+            src={`/LogosParceiros/KNNIdiomas.jpg`}
+            alt="KNN Idiomas"
             width={90}
             height={90}
           />
           <div className="mx-auto w-full absolute bg-gray-100 rounded shadow">
-            <p className="group-hover:block hidden">Desconto na declaração do imposto de renda. (49) 3289-2700</p>
+            <p className="group-hover:block hidden">
+              40% para sócios e dependentes no curso de Inglês - (49) 3018-5755
+            </p>
           </div>
-     
+        </a>
       </div>
 
       <div className="cursor-pointer hover:scale-105 group z-40">
@@ -75,6 +123,27 @@ export default function Parceiros() {
             20% de desconto <br></br> Contato: (49) 991933934
           </p>
         </div>
+      </div>
+
+      <div className="cursor-pointer group hover:scale-105 group z-40">
+        <a
+          href="https://www.oralexclusive.com.br/home"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <Image
+            src={`/LogosParceiros/OralExclusive.png`}
+            alt="Oral Exclusive"
+            width={90}
+            height={90}
+          />
+          <div className="mx-auto w-full absolute bg-gray-100 rounded shadow">
+            <p className="group-hover:block hidden">
+              {" "}
+              10 a 20% para sócios e dependentes - (49) 3222-1895
+            </p>
+          </div>
+        </a>
       </div>
 
       <div className="cursor-pointer hover:scale-105 group z-20">
@@ -94,12 +163,18 @@ export default function Parceiros() {
           height={40}
         />
         <div className="mx-auto w-full absolute bg-gray-100 rounded shadow">
-          <p className="group-hover:block hidden">Desconto de 15% <br></br>Contato: (49) 32250949</p>
+          <p className="group-hover:block hidden">
+            Desconto de 15% <br></br>Contato: (49) 32250949
+          </p>
         </div>
       </div>
 
       <div className="cursor-pointer group hover:scale-105 group z-20">
-        <a href="https://www.rockfeller.com.br/escola/lages" target="_blank" rel="noreferrer">
+        <a
+          href="https://www.rockfeller.com.br/escola/lages"
+          target="_blank"
+          rel="noreferrer"
+        >
           <Image
             src={`/LogosParceiros/Rockfeller.png`}
             alt="Logo Bullla"
@@ -120,7 +195,9 @@ export default function Parceiros() {
           height={60}
         />
         <div className="mx-auto w-full absolute bg-gray-100 rounded shadow">
-          <p className="group-hover:block hidden">Desconto de 15% <br></br> Contato: (49) 32220391</p>
+          <p className="group-hover:block hidden">
+            Desconto de 15% <br></br> Contato: (49) 32220391
+          </p>
         </div>
       </div>
 
@@ -137,19 +214,22 @@ export default function Parceiros() {
       </div>
 
       <div className="cursor-pointer hover:scale-105 group z-40">
-      <a href="https://www.uniplaclages.edu.br" target="_blank" rel="noreferrer">
-
-        <Image
-          src={`/LogosParceiros/Uniplac.png`}
-          alt="Logo PostoUniversitario"
-          width={80}
-          height={70}
-        />
-        <div className="mx-auto w-full absolute">
-          <p className="group-hover:block hidden bg-gray-100 rounded shadow">
-            Desconto de 30% nos mestrados
-          </p>
-        </div>
+        <a
+          href="https://www.uniplaclages.edu.br"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <Image
+            src={`/LogosParceiros/Uniplac.png`}
+            alt="Logo PostoUniversitario"
+            width={90}
+            height={90}
+          />
+          <div className="mx-auto w-full absolute">
+            <p className="group-hover:block hidden bg-gray-100 rounded shadow">
+              Desconto de 30% nos mestrados
+            </p>
+          </div>
         </a>
       </div>
 
@@ -162,7 +242,8 @@ export default function Parceiros() {
         />
         <div className="mx-auto w-full absolute bg-gray-100 rounded shadow">
           <p className="group-hover:block hidden ">
-            20% de desconto nos aparelhos auditivos <br></br> Contato: (49) 32246689
+            20% de desconto nos aparelhos auditivos <br></br> Contato: (49)
+            32246689
           </p>
         </div>
       </div>
@@ -181,8 +262,8 @@ export default function Parceiros() {
           />
           <div className="mx-auto w-full absolute bg-gray-100 rounded shadow">
             <p className="group-hover:block hidden">
-              20% para turmas de Berçário e Maternal 1 e 2; <br></br> 15% turma de
-              recreação.
+              20% para turmas de Berçário e Maternal 1 e 2; <br></br> 15% turma
+              de recreação.
             </p>
           </div>
         </a>
@@ -237,6 +318,30 @@ export default function Parceiros() {
         </a>
         <div className="mx-auto w-full absolute bg-gray-100 rounded shadow">
           <p className="group-hover:block hidden">20% Saiba mais</p>
+        </div>
+      </div>
+      <div className="mt-8 cursor-pointer group hover:scale-105 text-center">
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://drive.google.com/file/d/1uKndIFcwzT1qnHtdsf9xL6aJuWctV_zU/view?usp=sharing"
+        >
+          Estar bem Benefícios de Saúde
+        </a>
+        <div className="mx-auto w-full absolute bg-gray-100 rounded shadow">
+          <p className="group-hover:block hidden">Saiba mais</p>
+        </div>
+      </div>
+      <div className="mt-8 cursor-pointer group hover:scale-105 text-center">
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href=" https://drive.google.com/file/d/1oUnwO01gz-Mz62ij0_AHt6cMaN0Zx49J/view?usp=sharing"
+        >
+          Defende Proteção Veicular
+        </a>
+        <div className="mx-auto w-full absolute bg-gray-100 rounded shadow">
+          <p className="group-hover:block hidden">Saiba mais</p>
         </div>
       </div>
     </div>

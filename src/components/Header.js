@@ -104,7 +104,7 @@ export default function Header() {
             }`}
             id="navbar"
           >
-            <ul className="flex flex-col p-4 mt-32  md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0  text-end justify-end">
+            <ul className="flex flex-col mt-24 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:p-4 text-end justify-end">
               <li>
                 <a
                   href="#sobre"

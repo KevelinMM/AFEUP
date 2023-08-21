@@ -6,7 +6,7 @@ export default function Footer() {
           <div className=" cursor-default">
             &copy; {new Date().getFullYear()}{" "}
           </div>
-          <p className="text-blue-500 hover:text-blue-700 pl-1">{" <NIU/>"}</p>
+          <p className="text-blue-700 hover:text-blue-600 pl-1 cursor-pointer">{" <NIU/>"}</p>
         </div>
 
         <p className="text-sm ">

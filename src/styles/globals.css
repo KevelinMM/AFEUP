@@ -6,7 +6,7 @@
 @tailwind utilities;
 
 html {
-  @apply bg-slate-300 bg-gradient-to-t from-gray-700  text-gray-700 ;
+  @apply   text-gray-700 bg-slate-50;
 }
 
 input,
@@ -14,12 +14,12 @@ select {
   @apply shadow outline-none px-2 py-1 rounded;
 }
 
-button {
-  @apply shadow-md soft-transition text-gray-600 px-3 py-1 rounded mx-auto flex;
+button{
+  @apply px-8 py-4 bg-teal-500 text-white rounded inline-block mt-8 font-semibold;
 }
 
-h2 {
-  @apply text-3xl my-4 font-semibold pl-4 text-center py-4;
+label {
+  @apply font-bold leading-tight
 }
 
 .soft-transition {
@@ -27,16 +27,14 @@ h2 {
 }
 
 .page-title {
-  @apply font-semibold text-center text-3xl py-8 text-gray-600;
-}
-
-.page-content {
-  @apply mx-2 sm:mx-6 md:mx-28 lg:mx-40 xl:mx-52 text-justify  mb-16 rounded-sm  bg-opacity-80;
+  @apply text-3xl leading-tight font-bold mb-5 md:mb-8
 }
 
 .gallery {
   @apply soft-transition hover:brightness-110 rounded-md
 }
+
+
 
 
 

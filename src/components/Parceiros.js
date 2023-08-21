@@ -47,8 +47,8 @@ const partners = [
   {
     name: "Bullla",
     image: "Bullla.png",
-    width: 120,
-    height: 45,
+    width: 140,
+    height: 40,
     link: "#",
     description: "Cartão de crédito com desconto em folha.",
   },
@@ -181,8 +181,8 @@ const partners = [
   {
     name: "Santa Rosa",
     image: "SantaRosa.png",
-    width: 130,
-    height: 90,
+    width: 120,
+    height: 80,
     link: "#", // Add the link
     description: "Desconto de 15% Contato: (49) 32220391",
   },
@@ -205,7 +205,7 @@ const partners = [
   {
     name: "Vida e Som",
     image: "VidaeSom.png",
-    width: 130,
+    width: 170,
     height: 90,
     link: "#", // Add the link
     description:
@@ -215,8 +215,8 @@ const partners = [
   {
     name: "Recrearr",
     image: "Recrearr.png",
-    width: 100,
-    height: 100,
+    width: 110,
+    height: 110,
     link: "https://www.melhorescola.com.br/escola/centro-de-educacao-infantil-recrear", // Add the link
     description:
       " 20% para turmas de Berçário e Maternal 1 e 2; 15% turma de recreação.",

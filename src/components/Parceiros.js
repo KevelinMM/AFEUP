@@ -122,6 +122,7 @@ const partners = [
     image: "Digimax.jpg",
     width: 90,
     height: 90,
+    link: "https://digimaxdiagnostico.com.br/unidades/gaspar-sc/",
     description:
       "Descontos exclusivos nos exames para funcionários e familiares, solicitar desconto com a AFEUP.",
   },
@@ -178,6 +179,7 @@ const partners = [
     image: "TopWay.png",
     width: 130,
     height: 60,
+    link: "https://www.topwayschool.com/unidades/lages",
     description: "Desconto de 15% Contato: (49) 32250949",
   },
   {

@@ -146,6 +146,11 @@ export default function Header() {
                 </a>
               </li>
             </ul>
+            <div className="md:hidden absolute bottom-10 left-9">   <img
+              src="../../LogoTransparente.png"
+              className="h-10 "
+              alt="AFEUP Logo"
+            /></div>
           </div>
       
       </div>

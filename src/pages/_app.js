@@ -9,7 +9,7 @@ function MyApp({ Component, pageProps }) {
       <Head>
         <title>AFEUP</title>
         <meta name="description" content="AFEUP" />
-        <link rel="icon" type="image/png" sizes="32x32" href="/logoAfeup.png"></link>
+        <link rel="icon" href="/favicon.ico"></link>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" defer></script>
         <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.6/dist/jquery.fancybox.min.js" defer></script>
         <link

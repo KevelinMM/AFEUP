@@ -11,7 +11,7 @@ export default function Parceiros() {
         {partners.map((partner, index) => (
           <div
             key={index}
-            className="cursor-pointer group hover:scale-105 p-2 "
+            className="cursor-pointer group hover:scale-105 py-2"
           >
             <a href={partner.link} target="_blank" rel="noreferrer">
               <div className="">
@@ -23,8 +23,8 @@ export default function Parceiros() {
                 />
               </div>
 
-              <div className="absolute top-0 left-0 right-0 bottom-0 flex items-center justify-center bg-black bg-opacity-50 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-                <p className="text-white text-center">{partner.description}</p>
+              <div className="absolute left-0 right-0 bottom-0  items-center justify-center bg-black bg-opacity-50 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+                <p className="text-white text-center p-2">{partner.description}</p>
               </div>
             </a>
           </div>

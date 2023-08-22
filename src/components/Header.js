@@ -16,9 +16,9 @@ export default function Header() {
 
   return (
     <nav
-      className={`bg-slate-50 md:py-3 ${
+      className={`bg-slate-50 md:py-3  ${
         navbar
-          ? "w-52 fixed z-50 top-0 right-0 bg-white bg-opacity-95 flex flex-col md:flex-row"
+          ? "w-52 h-full fixed z-50 top-0 right-0 bg-white bg-opacity-95 flex flex-col md:flex-row"
           : ""
       }`}
     >

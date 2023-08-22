@@ -193,6 +193,7 @@ const partners = [
     image: "SantaRosa.png",
     width: 120,
     height: 80,
+    link: "https://www.eusousantarosa.com.br/",
     description: "Desconto de 15% Contato: (49) 32220391",
   },
   {

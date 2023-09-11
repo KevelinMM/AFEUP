@@ -41,7 +41,7 @@ export default function About() {
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
-                  href="https://drive.google.com/file/d/1UMjV4lKWLE65UsEE7RjabG4fNHBZdOWA/view?usp=sharing"
+                  href="https://drive.google.com/file/d/11SzMvXlqL21TuvEuPeS9iYMVPlY6YVl_/view?usp=sharing"
                 >
                   Demonstrativo Financeiro
                 </a>

@@ -75,6 +75,15 @@ const partners = [
     link: "https://www.camden.com.br/",
     description: "15% de desconto",
   },
+  {
+    name: "Clinitrauma",
+    image: "CliniTrauma.png",
+    width: 80,
+    height: 70,
+    link: "https://www.clinitrauma.com.br/corpo_clinico.php",
+    description:
+      "Consultas por apenas 250,00 (solicitar declaração para autorizar desconto na AFEUP).",
+  },
 
   {
     name: "COC",
@@ -82,7 +91,8 @@ const partners = [
     width: 120,
     height: 50,
     link: "https://coclages.com.br/",
-    description: "20% de desconto",
+    description:
+      "Educação Infantil, Ensino fundamental, Ensino Médio, Terceirão 10% pré, vestibular 5%",
   },
   {
     name: "Christopher Coberllini Cirurgião Dentista",
@@ -164,6 +174,15 @@ const partners = [
     width: 90,
     height: 70,
     description: "20% de desconto, Contato: (49) 991933934",
+  },
+  {
+    name: "Marta Coiffeurs",
+    image: "Marta.png",
+    width: 90,
+    height: 70,
+    link: "https://www.instagram.com/martacoiffeurs/",
+    description:
+      "20% de terça a quinta entre os meses de junho a outubro; 10% nos demais meses; 5% nas sextas e sábados do ano todo.",
   },
   {
     name: "Oral Exclusive",
